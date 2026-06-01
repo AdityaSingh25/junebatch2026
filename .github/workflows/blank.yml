@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
 
       - name: create a folder
-        run: mkdir /Users/adityanarayansingh/Folder1 && cd /Users/adityanarayansingh/Folder1 && touch file1.txt
+        run: mkdir /Users/adityanarayansingh/Folder3 && cd /Users/adityanarayansingh/Folder3 && touch file1.txt
 
       - name: create a folder2
-        run: mkdir /Users/adityanarayansingh/Folder2 && cd /Users/adityanarayansingh/Folder2 && touch file1.txt && echo "task done!!"
+        run: mkdir /Users/adityanarayansingh/Folder4 && cd /Users/adityanarayansingh/Folder4 && touch file1.txt && echo "task done!!"
