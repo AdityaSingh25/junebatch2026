@@ -1,3 +1,3 @@
-bucket_name = "jatinbhalla199ewew1"
+bucket_name = "dewdwedweded"
 region = "us-east-1"
 environment = "prod"
