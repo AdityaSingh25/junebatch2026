@@ -3,10 +3,10 @@ name: Build Java Jar and Publish Artifact
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
