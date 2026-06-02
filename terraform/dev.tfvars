@@ -1,4 +1,4 @@
-bucket_name = "AdityaThroughWworkflow"
+bucket_name = "aditya-through-workflow"
 region = "us-east-1"
 environment = "dev"
 cidr_block = "10.0.0.0/16"
