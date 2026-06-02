@@ -11,8 +11,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "my-terraform-state-1991"
-    key    = "devjune2026.tfstate"
+    bucket = "adityastate0225"
+    key    = "adityastate0225.tfstate"
     region = "us-east-1"
   }
 }
