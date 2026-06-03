@@ -44,5 +44,5 @@ jobs:
       - name: Build and push the image
         run: |
           cd singleContainerApp
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/all-in-one-app:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/all-in-one-app:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/all-in-one-app:githubworkflow .
+          docker push ${{ secrets.DOCKER_USERNAME }}/all-in-one-app:githubworkflow
