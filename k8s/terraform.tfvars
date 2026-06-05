@@ -1,5 +1,5 @@
 # Cluster Name - Update this for your demo
-cluster_name = "AWS_CLUSTER_THROUGH_WORKFLOW3"
+cluster_name = "AWS_CLUSTER_THROUGH_WORKFLOW4"
 
 # AWS Region
 region = "eu-west-2"
