@@ -1,5 +1,5 @@
 # Cluster Name - Update this for your demo
-cluster_name = "AWS_CLUSTER_THROUGH_WORKFLOW"
+cluster_name = "AWS_CLUSTER_THROUGH_WORKFLOW2"
 
 # AWS Region
 region = "eu-west-2"
@@ -23,7 +23,7 @@ max_capacity       = 4
 public_access_cidrs = ["0.0.0.0/0"]  # Restrict this to your IP for production
 
 # ECR Configuration
-ecr_repository_name = "demo-app"
+ecr_repository_name = "demo-apppp"
 
 # Common Tags
 common_tags = {
