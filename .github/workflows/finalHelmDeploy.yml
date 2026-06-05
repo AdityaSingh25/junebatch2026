@@ -28,7 +28,7 @@ jobs:
       - name: Update Kubeconfig
         run: |
           # IMPORTANT: Replace 'AWS_AKS_CLUSTER' with the exact name in your terraform.tfvars
-          aws eks update-kubeconfig --region ${{ secrets.AWS_REGION }} --name AWS_CLUSTER_THROUGH_WORKFLOW
+          aws eks update-kubeconfig --region ${{ secrets.AWS_REGION }} --name AWS_CLUSTER_THROUGH_WORKFLOW3
 
       # 3. Install Helm
       - name: Setup Helm

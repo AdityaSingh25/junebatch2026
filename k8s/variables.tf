@@ -1,7 +1,7 @@
 variable "cluster_name" {
   description = "Name of the EKS cluster"
   type        = string
-  default     = "demo-eks-cluster1"
+  default     = "AWS_CLUSTER_THROUGH_WORKFLOW3"
 }
 
 variable "kubernetes_version" {
