@@ -41,5 +41,5 @@ jobs:
           # --namespace: Deploys into your specific namespace
           # --create-namespace: Ensures the namespace exists first
           helm upgrade --install my-blue-green ./helm \
-            --namespace aditya-bg-demo-helm \
+            --namespace AWS_CLUSTER_THROUGH_WORKFLOW5 \
             --create-namespace
